@@ -2,6 +2,7 @@
 
 namespace ActivitySelectionProblem
 {
+    // The activity selection problem as described at: https://en.wikipedia.org/wiki/Activity_selection_problem
     public static class Regular
     {
         public static int Compute(params (int, int)[] activities) =>
